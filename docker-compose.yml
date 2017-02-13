@@ -1,5 +1,5 @@
 ebot:
-  image: hsfactory/ebot
+  image: bentonliu/docker-ebot
   restart: always
   links:
     - "mysql:mysql"
@@ -28,7 +28,7 @@ ebot:
     TOORNAMENT_PLUGIN_KEY: ''
 
 ebotweb:
-  image: hsfactory/ebotweb
+  image: bentonliu/docker-ebotweb
   restart: always
   links:
     - "mysql:mysql"
