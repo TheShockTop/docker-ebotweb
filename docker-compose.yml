@@ -12,7 +12,7 @@ ebot:
     - /opt/docker/ebot/logs:/ebot/logs
     - /opt/docker/ebot/demos:/ebot/demos
   environment:
-    EXTERNAL_IP: 'xxx.xxx.xxx.xxx'
+    EXTERNAL_IP: '212.47.235.110'
     MYSQL_HOST: 'mysql'
     MYSQL_PORT: '3306'
     MYSQL_DB: 'ebotv3'
@@ -38,7 +38,7 @@ ebotweb:
     - /opt/docker/ebot/demos:/opt/ebot/demos
     - /opt/docker/ebot/logs:/opt/ebotlogs
   environment:
-    EBOT_IP: 'xxx.xxx.xxx.xxx'
+    EBOT_IP: '212.47.235.110'
     EBOT_PORT: '12360'
     EBOT_ADMIN_USER: 'admin'
     EBOT_ADMIN_PASS: 'password'
